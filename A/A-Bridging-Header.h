@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DiffMatchPatch/DiffMatchPatch.h>
 
 //! Project version number for A.
 FOUNDATION_EXPORT double AVersionNumber;

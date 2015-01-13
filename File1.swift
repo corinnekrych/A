@@ -9,5 +9,5 @@
 import Foundation
 
 public class File1 {
-
+ let dmp = DiffMatchPatch()
 }

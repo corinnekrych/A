@@ -5,20 +5,24 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EBF89200-5B13-4595-863D-1A1A3BEA1751</string>
+	<string>21914A99-F33E-4048-8DC2-63276E3A0725</string>
 	<key>IDESourceControlProjectName</key>
 	<string>A</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CA5A62D78C0C3622AC841A8BBB96BA3433578146</key>
 		<string>https://github.com/corinnekrych/A.git</string>
+		<key>DAA19F4F923C1982D440E1A401FC51BC084FF297</key>
+		<string>https://github.com/danbev/diffmatchpatch-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>A.xcworkspace</string>
+	<string>A.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CA5A62D78C0C3622AC841A8BBB96BA3433578146</key>
-		<string>..</string>
+		<string>../..</string>
+		<key>DAA19F4F923C1982D440E1A401FC51BC084FF297</key>
+		<string>../../../../diffmatchpatch-ios</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/corinnekrych/A.git</string>
@@ -35,6 +39,14 @@
 			<string>CA5A62D78C0C3622AC841A8BBB96BA3433578146</string>
 			<key>IDESourceControlWCCName</key>
 			<string>A</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DAA19F4F923C1982D440E1A401FC51BC084FF297</string>
+			<key>IDESourceControlWCCName</key>
+			<string>diffmatchpatch-ios</string>
 		</dict>
 	</array>
 </dict>
