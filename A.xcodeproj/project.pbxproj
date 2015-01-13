@@ -10,7 +10,7 @@
 		489B83AE1A63D1D800AE28E8 /* A-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 489B83AD1A63D1D800AE28E8 /* A-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		489B83B41A63D1D800AE28E8 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489B83A81A63D1D800AE28E8 /* A.framework */; };
 		489B83BB1A63D1D800AE28E8 /* ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489B83BA1A63D1D800AE28E8 /* ATests.swift */; };
-		489B83C51A63D1EE00AE28E8 /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489B83C41A63D1EE00AE28E8 /* File1.swift */; };
+		48DBD4FC1A653110003239EC /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DBD4FB1A653110003239EC /* File1.swift */; };
 		B8E68942E9A90E5EC08176BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E941A2691D00E264DD32874B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 		489B83B31A63D1D800AE28E8 /* ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489B83B91A63D1D800AE28E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489B83BA1A63D1D800AE28E8 /* ATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATests.swift; sourceTree = "<group>"; };
-		489B83C41A63D1EE00AE28E8 /* File1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
+		48DBD4FB1A653110003239EC /* File1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
 		D8251852E77015C9B2E4786E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E941A2691D00E264DD32874B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,7 +68,6 @@
 		489B839E1A63D1D800AE28E8 = {
 			isa = PBXGroup;
 			children = (
-				489B83C41A63D1EE00AE28E8 /* File1.swift */,
 				489B83AA1A63D1D800AE28E8 /* A */,
 				489B83B71A63D1D800AE28E8 /* ATests */,
 				489B83A91A63D1D800AE28E8 /* Products */,
@@ -89,6 +88,7 @@
 		489B83AA1A63D1D800AE28E8 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				48DBD4FB1A653110003239EC /* File1.swift */,
 				489B83AD1A63D1D800AE28E8 /* A-Bridging-Header.h */,
 				489B83AB1A63D1D800AE28E8 /* Supporting Files */,
 			);
@@ -271,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489B83C51A63D1EE00AE28E8 /* File1.swift in Sources */,
+				48DBD4FC1A653110003239EC /* File1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

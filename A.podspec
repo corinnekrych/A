@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = "Red Hat, Inc."
   s.source       = {:git => 'https://github.com/corinnekrych/A.git',  :branch => 'master'}
   s.platform     = :ios, 8.0
-  s.source_files = '*.{h,swift}'
+  s.source_files = 'A/*.{h,swift}'
   s.dependency  'DiffMatchPatch'
 end
