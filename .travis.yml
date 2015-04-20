@@ -9,3 +9,4 @@ before_install:
 env:
   global:
     - RELEASE_VERSION=$(cat version.txt)
+    - echo $RELEASE_VERSION
