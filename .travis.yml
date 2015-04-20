@@ -14,4 +14,5 @@ before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 before_script:
   - echo "Version is $RELEASE_VERSION"
-  - echo $RELEASE_VERSION
+script:
+  - pod trunk push --allow-warnings
