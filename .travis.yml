@@ -12,4 +12,6 @@ env:
 
 before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
-
+before_script:
+  - echo on 
+  - echo "DDDDDDDDDDDD"
