@@ -7,7 +7,7 @@ xcode_sdk: iphonesimulator
 env:
   global:
     - echo "Getting version for cocoapods release"
-    - RELEASE_VERSION=$(cat version.txt)
+    - RELEASE_VERSION=0.1.2
     - echo $RELEASE_VERSION
 
 before_install:
