@@ -6,3 +6,6 @@ xcode_sdk: iphonesimulator
 
 before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+env:
+  global:
+    - RELEASE_VERSION=$(cat version.txt)
