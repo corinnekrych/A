@@ -8,9 +8,10 @@ env:
   global:
     - echo "Getting version for cocoapods release"
     - RELEASE_VERSION=0.1.2
-    - echo $RELEASE_VERSION
+
 
 before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 before_script:
   - echo "Version is $RELEASE_VERSION"
+  - echo $RELEASE_VERSION
