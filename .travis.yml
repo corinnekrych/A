@@ -1,12 +1,14 @@
 language: objective-c
-osx_image: xcode63
+osx_image: xcode11
 xcode_workspace: A.xcworkspace
 xcode_scheme: A
 xcode_sdk: iphonesimulator
 
-before_install:
-    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 env:
   global:
     - RELEASE_VERSION=$(cat version.txt)
     - echo $RELEASE_VERSION
+
+before_install:
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+
