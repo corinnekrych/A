@@ -14,5 +14,5 @@ before_install:
 before_script:
   - echo "Version is $RELEASE_VERSION"
 script:
-  - pod trunk register corinnekrych@gmail.com "Corinne Krych”
+  - pod trunk register corinnekrych@gmail.com "Corinne Krych"
   - pod trunk push --allow-warnings
